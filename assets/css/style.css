@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+  }
+
+  .body {
+      /* Will make nav links and paragraph the following and seeting up everything */
+    color:#777777;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+    width:100%; 
+    height:100%; 
+}
+
+  /* Setup of the white bar header */
+
+  /* Concenrn: it is only moving height by 50px not % */
+  .mainheader {
+    width:auto; 
+    height:90px;
+    background-color:#ffffff; 
+    display:flex;
+    flex-direction: row;
+  }
+ 
+  /* Yourname CSS - white font and teal background  */
+.heading1 {
+    width:13%; 
+    height:auto;
+    background:#4aaaa5;
+    font-size: 26px;
+    font-weight: bold; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color:#ffffff; 
+    /* to make the header box little towards the midde */
+    margin-left: 10%; 
+    /* to make the box biggeer 
+    conernc: making it 30px makes it a scroll bar*/
+    padding:15px 25px;
+    text-align:center;
+}
+.clearfix {
+    overflow: auto;
+  }
+
+
+.maincontainer {
+    background-color: #dddddd; 
+    width:100%; 
+}
+
+.container1 {
+    width:960px; 
+    background-color:blue; 
+
+}
+
+.navcontainer {
+    margin-left: 40%; 
+}
