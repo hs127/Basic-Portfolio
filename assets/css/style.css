@@ -86,7 +86,7 @@ a:visited{
 #img {
     width:250px;height:200px;
     float:left; 
-    margin:10px; 
+    margin:6px 10px;
 }
 
 .p {
