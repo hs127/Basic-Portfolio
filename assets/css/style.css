@@ -15,15 +15,18 @@
   /* Concenrn: it is only moving height by 50px not % */
   .mainheader {
     width:auto; 
-    height:90px;
+    height:80px;
     background-color:#ffffff; 
     display:flex;
     flex-direction: row;
+    border-bottom:2px; 
+    border-style:solid; 
+    border-bottom-color: #cccccc; 
   }
  
   /* Yourname CSS - white font and teal background  */
 .heading1 {
-    width:13%; 
+    width:14%; 
     height:auto;
     background:#4aaaa5;
     font-size: 26px;
@@ -31,28 +34,90 @@
     font-family: 'Georgia', Times, Times New Roman, serif;
     color:#ffffff; 
     /* to make the header box little towards the midde */
-    margin-left: 10%; 
+    margin-left: 15%; 
     /* to make the box biggeer 
     conernc: making it 30px makes it a scroll bar*/
-    padding:15px 25px;
+    padding:25px;
     text-align:center;
 }
 .clearfix {
     overflow: auto;
   }
 
-
-.maincontainer {
-    background-color: #dddddd; 
-    width:100%; 
+.bodcontainer {
+    background-color: #dddddd;
+    height:auto;
+    padding: 5% 0; 
 }
 
 .container1 {
     width:960px; 
-    background-color:blue; 
-
+    background-color:#ffffff;
+    margin: 6% 15%; 
+    border-color: #dddddd; 
+    border-style: solid; 
+    border:2px;
 }
 
 .navcontainer {
+    /* the space away from header1 */
+    margin-left: 30.5%; 
+    padding:30px;
+}
+
+a:link{
+    color:#777777;
+}
+
+a:visited{
+    color:blue;
+}
+
+
+/* 
+.nav {
     margin-left: 40%; 
+    list-style-type: none;
+} */
+
+/* .nav li {
+  display: inline-block;
+  font-size: 10px;
+  padding: 20px;
+} */
+
+#about {
+    padding:20px;
+}
+
+#portfolio {
+    padding:20px;
+}
+
+#contanct {
+  padding:20px;
+}
+
+.footer {
+    text-align: center; 
+    border-top:2px; 
+    border-style:solid; 
+    border-top-color: #4aaaa5;
+    background-color: #666666; 
+    padding: 15px; 
+}
+
+
+.heading2 {
+    width:18%; 
+    height:auto;
+    color:#4aaaa5;
+    font-size: 26px;
+    font-weight: bold; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+    /* to make the box biggeer 
+    conernc: making it 30px makes it a scroll bar*/
+    padding:30px;
+    text-align:left;
 }
