@@ -187,3 +187,28 @@ hr {
   .doc {
     margin: 20px;
   }
+
+
+  /* CSS Code for Porfolio */
+
+
+ gridContainer {
+   display:grid; 
+   grid-template-columns: auto auto; 
+  
+   justify-content: center; 
+   
+  }
+
+  gridItem {
+    padding: 10px; 
+    width:5px;height:10px;
+    margin:6px 10px;
+
+  }
+
+  #img {
+    width:250px;height:200px;
+   
+    margin:6px 10px;
+}
